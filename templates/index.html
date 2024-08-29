@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block body %}
+    <h1>Password: {{ password }}</h1>
+    <form action="/logout">
+        <input type="submit" value="Logout">
+    </form>
+{% endblock %}
